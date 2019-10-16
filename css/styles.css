@@ -1,15 +1,37 @@
-body {
-  margin: 0;
+html {
+  box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-.navbar {
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+header, h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+section {
+  padding: 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
   padding: 5%;
   display: flex;
   align-items: center;
 }
 
-.navbar-logo {
+.header-logo {
   flex: 2;
 }
 
@@ -26,6 +48,45 @@ body {
 .menu li {
   text-align: center;
   padding: 10px;
+  color: grey;
+  color: hsl(0, 0%, 75%);
 
   flex: 1;
 }
+
+/* Flexbox conatiner */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Stores */
+.stores {
+  flex: 1 1 50%;
+  /* padding: 5%; */
+}
+
+/* Image stores */
+.image-stores {
+  flex: 1 1 50%;
+}
+
+.description {
+  margin-top: 15%;
+}
+
+.description h2 {
+    font-size: 2.5rem;
+}
+
+.description p {
+  font-size: 1.2rem;
+}
+
+/* .productivuty {
+  flex: 1 1 50%;
+}
+
+.image-productivity {
+  flex: 1 1 50%;
+} */
