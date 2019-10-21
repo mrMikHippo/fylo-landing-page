@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .header-logo {
+    flex-basis: 50%;
+  }
+
+  .menu {
+    flex-basis: 50%;
+  }
+
+  /* Stores */
+  .stores {
+    flex-basis: 100%;
+    margin-bottom: 10%;
+  }
+
+  /* Image Stores */
+  .image-stores {
+    flex-basis: 100%;
+    order: -1;
+  }
+
+  .curve {
+    background-size: 100%;
+  }
+}
