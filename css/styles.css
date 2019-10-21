@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -24,6 +24,16 @@ section {
 
 img {
   max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  line-height: 3;
 }
 
 input {
@@ -146,10 +156,10 @@ input:focus, button:focus {
   width: 60%;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 25px;
   margin: 5%;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .review h2 {
@@ -189,7 +199,6 @@ input:focus, button:focus {
   width: 100%;
   color: white;
   background-color: hsl(238, 22%, 44%);
-
   display: flex;
   align-items: center;
 }
@@ -209,4 +218,56 @@ input:focus, button:focus {
 .early-access-input input {
   width: 80%;
   margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: #ccc;
+  padding: 5%;
+}
+
+.logo-footer path {
+  fill: #fff;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.contacts {
+  flex-basis: 25%;
+}
+
+.about-us {
+  flex-basis: 25%;
+}
+
+.contact-us {
+  flex-basis: 25%;
+}
+
+.social-links {
+  flex-basis: 25%;
+}
+
+.social-links ul {
+  display: flex;
+}
+
+.social-links ul li {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links ul li:hover {
+  color: hsl(170, 45%, 43%);
+  border-color: hsl(170, 45%, 43%);
 }
