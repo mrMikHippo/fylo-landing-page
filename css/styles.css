@@ -26,10 +26,36 @@ img {
   max-width: 100%;
 }
 
-/* section img {
-  padding-right: 5%;
-} */
+input {
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: 55%;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-right: 5px;
+}
 
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: 35%;
+  color: white;
+  border: 1px solid hsl(224, 93%, 58%);
+  border-radius: 4px;
+  background-color: hsl(224, 93%, 58%);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: hsl(224, 93%, 48%);
+}
+
+input:focus, button:focus {
+  /* Remove highlighting when selected */
+  outline-style: none;
+}
+
+/* Header */
 .header {
   padding: 5%;
   display: flex;
@@ -89,44 +115,14 @@ img {
 }
 
 .description p {
-  /* font-size: 1.2rem; */
   line-height: 1.5;
-}
-
-/* Email form */
-.email-input {
-  padding: 10px 20px;
-  font-size: 1rem;
-  width: 55%;
-  border: 1px solid grey;
-  border-radius: 4px;
-  margin-right: 5px;
-}
-
-.email-submit {
-  padding: 10px 20px;
-  font-size: 1rem;
-  width: 35%;
-  color: white;
-  border: 1px solid hsl(224, 93%, 58%);
-  border-radius: 4px;
-  background-color: hsl(224, 93%, 58%);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.email-submit:hover {
-  background-color: hsl(224, 93%, 48%);
-}
-
-.email-input:focus, .email-submit:focus {
-  /* Remove highlighting when selected */
-  outline-style: none;
 }
 
 /* Productivity Section */
 .productivity {
   flex: 1 1 50%;
   background-color: hsl(220, 75%, 98%);
+  padding-bottom: 3%;
 }
 
 .image-productivity {
@@ -186,4 +182,31 @@ img {
 .person-description p {
   font-size: .6rem;
   margin-top: 0;
+}
+
+/* Early access Section */
+.early-access {
+  width: 100%;
+  color: white;
+  background-color: hsl(238, 22%, 44%);
+
+  display: flex;
+  align-items: center;
+}
+
+.early-access-description {
+  flex: 1 1 50%;
+  margin: 50px;
+  line-height: 1.5;
+  padding-right: 10%;
+}
+
+.early-access-input {
+  flex: 1 1 50%;
+  margin: 70px;
+}
+
+.early-access-input input {
+  width: 80%;
+  margin-bottom: 10px;
 }
