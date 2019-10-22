@@ -160,7 +160,9 @@ input:focus, button:focus {
   line-height: 1.5;
   text-decoration: none;
   padding-bottom: 5px;
+  padding-right: 20px;
   border-bottom: 1px solid hsl(170, 45%, 43%);
+  background: no-repeat url('../images/icon-arrow.svg') right;
 }
 
 /* Review  */
@@ -182,6 +184,11 @@ input:focus, button:focus {
 .review p {
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.quotes {
+  height: 20px;
+  background: no-repeat url('../images/icon-quotes.svg');
 }
 
 .card {
@@ -251,6 +258,16 @@ footer {
   flex-basis: 25%;
 }
 
+.contacts .phone {
+  padding-left: 25px;
+  background: no-repeat url('../images/icon-phone.svg') left;
+}
+
+.contacts .email {
+  padding-left: 25px;
+  background: no-repeat url('../images/icon-email.svg') left;
+}
+
 .about-us {
   flex-basis: 25%;
 }
@@ -271,9 +288,10 @@ footer {
   margin: 10px;
   width: 30px;
   height: 30px;
-  border: 1px solid #fff;
   color: #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
+
   display: flex;
   align-items: center;
   justify-content: center;
