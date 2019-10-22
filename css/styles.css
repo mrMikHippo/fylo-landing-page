@@ -98,6 +98,7 @@ input:focus, button:focus {
 /* Stores */
 .stores {
   flex-basis: 50%;
+  padding-top: 50px;
 }
 
 .description {
@@ -135,7 +136,7 @@ input:focus, button:focus {
 /* Curve */
 .curve {
   width: 100%;
-  margin-top: 20%;
+  margin-top: 15%;
   position: relative;
 }
 
