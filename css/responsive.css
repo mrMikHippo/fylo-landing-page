@@ -1,19 +1,39 @@
 @media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  section {
+    padding-right: 5%;
+  }
+
   .header-logo {
     flex-basis: 50%;
+    text-align: left;
   }
 
   .menu {
     flex-basis: 50%;
   }
 
-  /* Stores */
   .stores {
     flex-basis: 100%;
     margin-bottom: 10%;
   }
 
-  /* Image Stores */
+  .email-form {
+    flex-wrap: wrap;
+  }
+
+  .email-input {
+    flex: 1 1 100%;
+    margin-right: 0;
+  }
+
+  .email-submit {
+    margin-top: 10px;
+  }
+
   .image-stores {
     flex-basis: 100%;
     order: -1;
@@ -22,4 +42,54 @@
   .curve {
     background-size: 100%;
   }
+
+  .productivity {
+    flex-basis: 100%;
+    order: 2;
+  }
+
+  .image-productivity {
+    flex-basis: 100%;
+    order: 1;
+    padding-top: 15%;
+  }
+
+  .review {
+    width: 90%;
+  }
+
+  .early-access {
+    order: 5;
+    flex-direction: column;
+  }
+
+  .early-access-description {
+    flex-basis: 100%;
+  }
+
+  .early-access-form {
+    margin: 0 0 50px;
+  }
+
+  .early-access-submit {
+    flex-basis: 100%;
+  }
+
+  /* Footer */
+  footer {
+    text-align: left;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  footer > * ul {
+    margin: 10px 0;
+  }
+
+  .social-links ul {
+    justify-content: center;
+  }
 }
+
+@media screen and (max-width: 576px) {}
