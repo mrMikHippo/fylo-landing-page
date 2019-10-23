@@ -17,6 +17,10 @@ h1, h2 {
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   padding-left: 5%;
 }
@@ -81,7 +85,7 @@ input:focus, button:focus {
   justify-content: space-between;
 }
 
-.menu li {
+.menu li a {
   color: grey;
   color: hsl(0, 0%, 75%);
 }
@@ -268,6 +272,10 @@ footer {
   display: flex;
 }
 
+.footer-wrapper>* ul li a {
+  color: #ccc;
+}
+
 .contacts {
   flex-basis: 25%;
 }
@@ -302,7 +310,7 @@ footer>* ul {
   display: flex;
 }
 
-.social-links ul li {
+.social-links ul li a {
   margin: 10px;
   width: 30px;
   height: 30px;
@@ -314,7 +322,7 @@ footer>* ul {
   justify-content: center;
 }
 
-.social-links ul li:hover {
+.social-links ul li a:hover {
   color: hsl(170, 45%, 43%);
   border-color: hsl(170, 45%, 43%);
 }
